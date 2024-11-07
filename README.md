@@ -2,7 +2,7 @@
 
 <h2>Título do Trabalho: Criando uma base de dados para que atenda um sistema de uma faculdade.</h2>
 
-<h3 text-align: center;>Texto referente ao trabalho</h3>
+<h3 align="center">Texto referente ao trabalho</h3>
 <p> Os proprietários de uma faculdade precisam de um sistema que viabilize o
  armazenamento de informações sobre seus alunos, cursos,matérias e professores para
  que seja possível realizar controles básicos como montar turmas e realizar o
