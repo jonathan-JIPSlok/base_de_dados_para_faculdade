@@ -229,14 +229,14 @@ CREATE TABLE tbl_enderecos_professor (
 CREATE TABLE tbl_presencas (
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	data DATE NOT NULL,
-    status ENUM ('presente', 'ausente', 'justivicado') NOT NULL,
+    status ENUM ('presente', 'ausente', 'justificado') NOT NULL,
     observacoes TEXT,
     hora_entrada TIME,
     hora_saida TIME,
     fk_aluno_ra INT NOT NULL,
     fk_professor_id INT NOT NULL,
     
-    UNIQUE (id),
+    UNIQUE INDEX (id),
     
     CONSTRAINT fk_presenca_aluno
     FOREIGN KEY (fk_aluno_ra)
@@ -247,14 +247,18 @@ CREATE TABLE tbl_presencas (
     REFERENCES tbl_professores (id)
 );
 
-INSERT INTO tbl_cursos (nome, tempo_curso, valor) values ('Administração', 10, '220.90');
+insert into tbl_cursos (nome,tempo_curso, valor) values ("Análise e Desenvolvimento de sistemas", 5, "100.00");
+insert into tbl_cursos (nome,tempo_curso, valor) values ("Administração", 10, "150.00");
+insert into tbl_cursos (nome,tempo_curso, valor) values ("Engenharia da Computação", 10, "200.00");
 
-INSERT INTO tbl_turmas (data_inicio, periodo) values ('20240901', 1);
+insert into tbl_turmas (data_inicio, periodo) values (20240101, 2);
+insert into tbl_turmas (data_inicio, periodo) values (20220101, 6);
 
-INSERT INTO tbl_alunos (nome, data_registro, cpf, data_nascimento, fk_curso_id, fk_turma_id) values ('Jeferson Oliveira', "20241024", '22476589098', "20240409", 2, 1);
-select * from tbl_alunos;
+insert into tbl_alunos (nome, data_registro, cpf, data_nascimento, fk_curso_id, fk_turma_id) values ("Josefina", 20240101, "22476389173", 20020409, 2, 1);
+insert into tbl_alunos (nome, data_registro, cpf, data_nascimento, fk_curso_id, fk_turma_id) values ("Luiz", 20220101, "22476389173", 20020409, 3, 2);
 
-select tbl_alunos.nome, tbl_cursos.nome as nome_curso, tbl_cursos.valor from tbl_alunos
+# Vendo os alunos e seus cursos.
+select tbl_alunos.nome as nome_aluno, data_registro as data_registro_aluno, tbl_cursos.nome as nome_curso from tbl_alunos
 inner join tbl_cursos on tbl_cursos.id = tbl_alunos.fk_curso_id;
 
 show tables;
