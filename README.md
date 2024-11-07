@@ -1,6 +1,6 @@
-<h1>Trabalho feito para a faculdade de Análise e Desenvolvimento de Sistemas</h1>
+<h1 align="center" color="red">Trabalho feito para a faculdade de Análise e Desenvolvimento de Sistemas</h1>
 
-<h2>Título do Trabalho: Criando uma base de dados para que atenda um sistema de uma faculdade.</h2>
+<h2 align="center" color="green">Título do Trabalho: Criando uma base de dados para que atenda um sistema de uma faculdade.</h2>
 
 <h3 align="center">Texto referente ao trabalho</h3>
 <p> Os proprietários de uma faculdade precisam de um sistema que viabilize o
