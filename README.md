@@ -1,8 +1,8 @@
-<h1 align="center" color="red">Trabalho feito para a faculdade de Análise e Desenvolvimento de Sistemas</h1>
+__<h1 align="center" style="color: red;">Trabalho feito para a faculdade de Análise e Desenvolvimento de Sistemas</h1>__
 
-<h2 align="center" color="green">Título do Trabalho: Criando uma base de dados para que atenda um sistema de uma faculdade.</h2>
+__<h2 align="center" style="color: green;">Título do Trabalho: Criando uma base de dados para que atenda um sistema de uma faculdade.</h2>__
 
-<h3 align="center">Texto referente ao trabalho</h3>
+__<h3 align="center">Texto referente ao trabalho</h3>__
 <p> Os proprietários de uma faculdade precisam de um sistema que viabilize o
  armazenamento de informações sobre seus alunos, cursos,matérias e professores para
  que seja possível realizar controles básicos como montar turmas e realizar o
