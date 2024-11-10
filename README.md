@@ -16,7 +16,7 @@ __<h3 align="center">Texto referente ao trabalho</h3>__
  <li>Análise de Requisitos.</li>
  <li>Modelo Conceitual</li>
  <li>Modelo Lógico</li>
- <li>Modelo Físico compativel com MySQl</li>
+ <li>Modelo Físico compativel com MySQL</li>
  <li>Código no GitHub</li>
  <li>Video explicativo no Linkedin ou Youtube</li>
     <ul>
