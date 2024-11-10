@@ -17,4 +17,7 @@ __<h3 align="center">Texto referente ao trabalho</h3>__
  <li>Modelo Conceitual</li>
  <li>Modelo Lógico</li>
  <li>Modelo Físico compativel com MySQl</li>
+ <li>Código no GitHub</li>
+ <li>Video explicativo no Linkedin ou Youtube</li>
+    <ol>Vídeo no Linkedin: </ol>
 </ul>
