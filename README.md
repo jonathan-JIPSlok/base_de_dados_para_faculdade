@@ -10,3 +10,11 @@ __<h3 align="center">Texto referente ao trabalho</h3>__
  Com base no que foi apresentado a cima, o aluno deve criar um banco de dados que
  ofereça suporte para que um sistema possa armazenar informações que atendam a
  necessidade do cliente.</p>
+
+<h4>Este Trabalho conta com o passo a passo a seguir:</h4>
+<ul>
+ <li>Análise de Requisitos.</li>
+ <li>Modelo Conceitual</li>
+ <li>Modelo Lógico</li>
+ <li>Modelo Físico compativel com MySQl</li>
+</ul>
