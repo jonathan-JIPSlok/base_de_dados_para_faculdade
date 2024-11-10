@@ -20,6 +20,6 @@ __<h3 align="center">Texto referente ao trabalho</h3>__
  <li>Código no GitHub</li>
  <li>Video explicativo no Linkedin ou Youtube</li>
     <ul>
-      <li>Vídeo no Linkedin: </li>
+      <li>Vídeo no Linkedin: <a href="https://www.linkedin.com/posts/jonathanpoli_bancodedados-sql-anaerliseedesenvolvimentodesistemas-activity-7261434960295694336-zoWI?utm_source=share&utm_medium=member_desktop">Clique aqui</a></li>
     </ul>
 </ul>
